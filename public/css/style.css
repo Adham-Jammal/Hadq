@@ -50,6 +50,9 @@ body{
 a{
     text-decoration: none;
 }
+section{
+    padding: 20px 0;
+}
 
 @media (max-width:991px){
 
@@ -837,6 +840,65 @@ a{
   .portfolio-details .portfolio-description p {
     padding: 0;
   }
+/* Customers */
+.gallery{
+    position: relative;
+
+}
+.gallery h2{
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.4rem;
+}
+.gallery .images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery .section-title h2{
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-size: 3.2rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 20px;
+}
+.gallery .section-title h2::before{
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 3px;
+    bottom: -4px;
+    right: 8px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.gallery .section-title h2::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 12px;
+    bottom: -8px;
+    right: 75%;
+    border: 4px solid #000;
+    background-color: transparent;
+    border-radius: 4px;
+}
+.gallery .section-title p{
+    font-size: 16px;
+}
+.gallery .single-image{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    margin-bottom: 20px;
+}
+.gallery .single-image img{
+    width: 40%;
+}
 /* Contact */
 .contact-form{
     padding: 75px 0;
@@ -997,5 +1059,8 @@ footer {
     .hero .hero-logo{
         width: 150px;
         margin-bottom: 50px;
+    }
+    .contact-form .map img{
+        display: none;
     }
 }

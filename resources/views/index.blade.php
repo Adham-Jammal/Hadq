@@ -93,7 +93,23 @@
 
             </div>
         </section>
-
+        {{-- Customers --}}
+        <section class="gallery" id="partners">
+            <div class="container">
+                <div class="section-title">
+                    <h2>عملاؤنا المميزون </h2>
+                    <p>انضم إلينا لتكون بين قائمة أفضل العملاء</p>
+                </div>
+                    <div class="images partners-slider owl-carousel owl-drag owl-theme" data-aos="fade-up" data-aos-duration="1000">
+                    <img loading="lazy" src="{{ asset('img/logo.png') }}" alt="partner-image">
+                    <img loading="lazy" src="{{ asset('img/logo.png') }}" alt="partner-image">
+                    <img loading="lazy" src="{{ asset('img/logo.png') }}" alt="partner-image">
+                    <img loading="lazy" src="{{ asset('img/logo.png') }}" alt="partner-image">
+                    <img loading="lazy" src="{{ asset('img/logo.png') }}" alt="partner-image">
+                    <img loading="lazy" src="{{ asset('img/logo.png') }}" alt="partner-image">
+                </div>
+            </div>
+        </section>
         {{-- Contact --}}
         <section class="contact-form" id="contact_us">
             <div class="container">

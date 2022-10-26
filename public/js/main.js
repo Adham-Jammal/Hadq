@@ -168,3 +168,28 @@ window.addEventListener('scroll', scrollProgressBar);
 
 })()
 
+$(".partners-slider").owlCarousel({
+    items: 5,
+    loop: true,
+    rtl : true,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    autoplayTimeout: 6000,
+    dots: false,
+    smartSpeed: 1000,
+    lazyLoad: true,
+    nav: false,
+    responsive: {
+        0: {
+            items: 1,
+            nav: false,
+        },
+        600: {
+            items: 3,
+            nav: false,
+        },
+        1000: {
+            items: 5,
+        },
+    },
+  });
