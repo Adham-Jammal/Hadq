@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Arabic-font;
+    src: url("/fonts/DIN\ Next\ LT\ Arabic\ Bold.ttf");
+    src: url("../fonts/DIN\ Next\ LT\ Arabic\ Light.ttf");
+    src: url("../fonts/DIN\ Next\ LT\ Arabic\ Medium.ttf");
+    src: url("../fonts/DIN\ Next\ LT\ Arabic\ Regular.ttf");
+  }
+*{
+    direction: rtl;
+    font-family: 'Arabic-font', sans-serif;
+}
+
+.ps__rail-y , 
+.app-footer
+ {
+    display: none !important;
+}
