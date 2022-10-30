@@ -1,7 +1,4 @@
 @extends('app')
-@section('css')
-    <link rel="stylesheet" href="{{ asset('css/' . LaravelLocalization::getCurrentLocale() . '-style.css') }}">
-@stop
 @section('main')
     {{-- Hero --}}
     <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade"
