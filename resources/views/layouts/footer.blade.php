@@ -18,7 +18,9 @@
                         <script>
                             document.write(new Date().getFullYear())
                         </script> Hadq <br>
-                        Developed by SAND
+                        Developed by
+                        <a style="color:#ff6700 " href="https://sand.business/ar#Packages" target="_blank"> <span style="color:#ff670 ">SAND</span> </a>
+                        
                     </h4>
                 </div>
             </div>

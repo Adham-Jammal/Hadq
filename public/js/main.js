@@ -193,3 +193,6 @@ $(".partners-slider").owlCarousel({
         },
     },
   });
+  const observer = lozad();
+  observer.observe();
+  
