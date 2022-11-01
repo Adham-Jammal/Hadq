@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 text-center">
-                    <img class="hero-logo lozad" data-src="{{ asset('img/white-logo.png') }}" alt="">
+                    <img class="hero-logo lozad" data-src="{{ asset('img/logo2.png') }}" alt="">
                     <h2> عـيـنٌ أمـعـنـت<span>فـأبـدعـــت </span></h2>
                     <p>
                         {{ $data['royaa_desc_Ar'] }}
@@ -25,13 +25,13 @@
 
         {{-- Portfolio --}}
         <section id="portfolio" class="portfolio">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="section-title">
                     <h2>معرض أعمالنا</h2>
                     <p>في حَدق عملنا على أكثر من ٤٠ مشروع ولدينا تعاون مع عملاء من معظم انحاء المملكة ودول الخليج.</p>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                    {{-- <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
                         <ul id="portfolio-flters">
                             @foreach ($galleries as $key => $item)
 
@@ -40,7 +40,7 @@
                                 {{$item->title_Ar}} </li>
                             @endforeach
                         </ul>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="row portfolio-container">
                     @foreach ($galleries as $key => $item)
@@ -52,6 +52,7 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-{{$item->id}}">
                         <div class="portfolio-wrap">
+                            <span class="work-name">{{$item->title_Ar}} </span>
                             <img data-src="{{ Voyager::image($image) }}" class="img-fluid lozad" alt="">
                             <div class="portfolio-info">
                                 {{-- <h4>التصوير الفوتوغرافي </h4> --}}

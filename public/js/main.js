@@ -192,7 +192,7 @@ $(window).on("scroll", function () {
 });
 
 $(".partners-slider").owlCarousel({
-    items: 5,
+    items: 8,
     loop: true,
     rtl : true,
     autoplay: true,
@@ -204,7 +204,7 @@ $(".partners-slider").owlCarousel({
     nav: false,
     responsive: {
         0: {
-            items: 1,
+            items: 3,
             nav: false,
         },
         600: {
@@ -212,7 +212,7 @@ $(".partners-slider").owlCarousel({
             nav: false,
         },
         1000: {
-            items: 5,
+            items: 8,
         },
     },
   });
