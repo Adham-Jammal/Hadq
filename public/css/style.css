@@ -791,7 +791,7 @@ input[type=number] {
   }
 
   .portfolio .portfolio-wrap .portfolio-links a {
-    color: var(--main-color);
+    color: black;
     margin: 0 2px;
     font-size: 24px;
     display: inline-block;
@@ -803,8 +803,8 @@ input[type=number] {
   }
 
   .portfolio .portfolio-wrap .portfolio-links a:hover {
-    color: #fff;
-    color: var(--main-color);
+    color: black;
+    background-color: var(--main-color);
   }
 
   .portfolio .portfolio-wrap:hover::before {

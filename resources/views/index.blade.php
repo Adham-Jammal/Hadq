@@ -60,7 +60,7 @@
                             </div>
                             <div class="portfolio-links">
                                 <a href="{{ Voyager::image($image) }}" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="{{$item->title_Ar}} "><i class="bi bi-search"></i></a>
+                                    class="portfolio-lightbox" title="{{$item->title_Ar}} "><i class="bi bi-eye"></i></a>
                             </div>
                         </div>
                     </div>
