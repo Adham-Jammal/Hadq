@@ -717,7 +717,14 @@ input[type=number] {
     align-items: center;
     justify-content: center;
   }
-
+  .portfolio .portfolio-wrap img{
+    height: 350px;
+    width: 365px;
+    object-fit: cover;
+  }
+  .glightbox-clean .gdesc-inner{
+    display: none;
+  }
   .portfolio .portfolio-wrap::before {
     content: "";
     background: #b2beada5;
