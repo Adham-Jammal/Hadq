@@ -11,10 +11,10 @@
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a href="#" class="active">الرئيسية</a></li>
+                <li><a href="#hero" class="active">الرئيسية</a></li>
                 <li><a href="#portfolio">معرض الأعمال</a></li>
-                <li><a href="#">عملاؤنا</a></li>
-                <li><a href="#">طلب الخدمة</a></li>
+                <li><a href="#clients">عملاؤنا</a></li>
+                <li><a href="#contact">طلب الخدمة</a></li>
             </ul>
         </nav><!-- .navbar -->
 

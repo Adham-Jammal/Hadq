@@ -34,8 +34,8 @@
                     <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
                         <ul id="portfolio-flters">
                             @foreach ($galleries as $key => $item)
-        
-        
+
+
                             <li data-filter=".filter-{{$item->id}} " @if(!$key) class="filter-active" @endif>
                                 {{$item->title_Ar}} </li>
                             @endforeach
@@ -45,11 +45,11 @@
                 <div class="row portfolio-container">
                     @foreach ($galleries as $key => $item)
                     @if (isset($item->image))
-        
+
                     @foreach(json_decode($item->image, true) as $image)
-        
-                  
-                        
+
+
+
                     <div class="col-lg-4 col-md-6 portfolio-item filter-{{$item->id}}">
                         <div class="portfolio-wrap">
                             <img data-src="{{ Voyager::image($image) }}" class="img-fluid lozad" alt="">
@@ -65,19 +65,19 @@
                     </div>
                     @endforeach
                     @endif
-        
-        
-                 
+
+
+
                     @endforeach
-        
-        
+
+
                 </div>
             </div>
-        
-        
-        
+
+
+
         {{-- Customers --}}
-        <section class="gallery" id="partners">
+        <section class="gallery" id="clients">
             <div class="container">
                 <div class="section-title">
                     <h2>عملاؤنا المميزون </h2>
@@ -89,12 +89,12 @@
                             <img loading="lazy" data-src="{{ Voyager::image($image) }}" class="lozad" alt="partner-image">
                         </div>
                         @endforeach
-            
+
                 </div>
             </div>
         </section>
         {{-- Contact --}}
-        <section class="contact-form" id="contact_us">
+        <section class="contact-form" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 map" data-aos="zoom-in" data-aos-duration="1000">
@@ -117,7 +117,7 @@
                             </select>
                             <select name="service" id="">
                                 <option value="" disabled selected> احتياجك </option>
-                               
+
                                 <option value="هوية كاملة"> هوية كاملة</option>
                                 <option value="شعار ورسمة "> شعار ورسمة </option>
                                 <option value="شعار فقط"> شعار فقط</option>
